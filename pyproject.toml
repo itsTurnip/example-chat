@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "example-chat"
+version = "0.1.0"
+description = "An example chat app made on a webinar"
+authors = ["itsTurnip <22935812+itsTurnip@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.2"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry==1.0.9"]
+build-backend = "poetry.masonry.api"
