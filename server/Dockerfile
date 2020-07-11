@@ -11,6 +11,8 @@ RUN poetry config virtualenvs.create false \
 
 COPY . /usr/src/example-chat/
 
+EXPOSE 5000
+
 ENTRYPOINT ["python"]
 
 CMD ["app.py"]
